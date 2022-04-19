@@ -1,0 +1,13 @@
+.my-nav {
+     background: linear-gradient(to left, #EEE9FD 0%, #C9CDFF 100%);
+     
+    /* background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%); */
+    text-align: center;
+}
+#get-start {
+    border: 2px solid #8828ff;
+    border-radius: 25px;
+}
+.my-nav .nav-link {
+    color: #8828ff !important;
+}
