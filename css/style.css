@@ -1,8 +1,11 @@
 .my-nav {
-     background: linear-gradient(to left, #EEE9FD 0%, #C9CDFF 100%);
-     
+    /* background: linear-gradient(to left, #eee9fd 0%, #c9cdff 100%); */
+    background: linear-gradient(to left, #ffd9dd 0%, #c9cdff 100%);
+
     /* background: linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%); */
     text-align: center;
+    /* background: linear-gradient( #8828FF, #C173FF,  #DEB5FF, #FFD9DD); */
+    /* color: rgb(170, 235, 255); */
 }
 #get-start {
     border: 2px solid #8828ff;
@@ -11,3 +14,54 @@
 .my-nav .nav-link {
     color: #8828ff !important;
 }
+
+/* banner css start */
+
+.banner-area {
+    /* background: linear-gradient(to left, #eee9fd 0%, #c9cdff 100%); */
+    background: linear-gradient(to left, #ffd9dd 0%, #c9cdff 100%);
+}
+.get-started {
+    color: #fff;
+    background: rgb(136, 40, 255);
+    border-radius: 25px;
+    border: none;
+    margin-right: 25px;
+    padding: 9px 25px;
+}
+.free-trial {
+    border: none;
+    background: none;
+    color: #fff;
+}
+
+/* banner css ends */
+
+/* curve area start */
+#wave {
+    margin-top: -45px;
+}
+
+/* curve area ends */
+
+/* responsive area start */
+@media only screen and (max-width: 1200px) {
+    /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+    /*Big smartphones [426px -> 600px]*/
+
+    #wave {
+        margin-top: -5px;
+    }
+    .btn-area{
+        margin:25px 0;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #wave {
+        margin-top: -5px;
+    }
+}
+
+/* responsive area end */
